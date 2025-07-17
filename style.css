@@ -120,3 +120,20 @@ footer {
 #maps {
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 10px;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-menu {
+    display: block;
+  }
+}
